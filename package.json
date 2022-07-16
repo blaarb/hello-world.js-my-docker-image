@@ -1,0 +1,23 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "a simple hello-world app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blaarb/hello-world.js-my-docker-image.git"
+  },
+  "author": "Tair Yunussov",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "latest"
+  },
+  "bugs": {
+    "url": "https://github.com/blaarb/hello-world.js-my-docker-image/issues"
+  },
+  "homepage": "https://github.com/blaarb/hello-world.js-my-docker-image#readme"
+}
